@@ -8,5 +8,5 @@ end
 # require_recipe "mbari-ruby"
 
 # uncomment to enable the postgres database server
-#require_recipe 'rubygems'
+require_recipe 'memcached'
 require_recipe 'mysqlconf'
