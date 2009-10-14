@@ -10,3 +10,4 @@ end
 # uncomment to enable the postgres database server
 require_recipe 'memcached'
 require_recipe 'mysqlconf'
+require_recipe 'timezone'
